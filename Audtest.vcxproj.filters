@@ -1194,9 +1194,4 @@
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="hlp\Speaker Workshop.hpj">
-      <Filter>Help Files</Filter>
-    </CustomBuild>
-  </ItemGroup>
 </Project>

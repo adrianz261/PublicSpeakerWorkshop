@@ -1349,21 +1349,6 @@
     <ClInclude Include="zFormEdt.h" />
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="hlp\Speaker Workshop.hpj">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">echo on
-hcw /C /E "%(FullPath)"
-</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\My Documents\Speaker Workshop.rtf;SpkrWork.cnt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectDir)SpkrWork.hlp;%(Outputs)</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Local|Win32'">hcw /C /E "%(FullPath)"
-</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Local|Win32'">\My Documents\Speaker Workshop.rtf;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Local|Win32'">$(ProjectDir)SpkrWork.hlp;%(Outputs)</Outputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">hcw /C /E "%(FullPath)"
-</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">\My Documents\Speaker Workshop.rtf;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ProjectDir)SpkrWork.hlp;%(Outputs)</Outputs>
-    </CustomBuild>
     <None Include="Res\arrow.cur" />
     <None Include="Res\arrowcop.cur" />
     <None Include="Res\Audtest.rc2" />
