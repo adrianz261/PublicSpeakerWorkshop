@@ -288,7 +288,7 @@ CDlgNote cdlg( pParent);
 //		set_ClipRect
 //			this is from Microsoft sample code
 // ------------------------------------------------------------------
-static set_ClipRect(CDC *pDC, CRect &cRect)
+static auto set_ClipRect(CDC *pDC, CRect &cRect)
 {
 CRgn rgn;
 CRect rectClip = cRect;
