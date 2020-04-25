@@ -1,0 +1,3 @@
+^D:\KODY\GIT\PUBLICSPEAKERWORKSHOP\HLP\SPEAKER WORKSHOP.HPJ
+echo on
+hcw /C /E "D:\Kody\Git\publicspeakerworkshop\hlp\Speaker Workshop.hpj"
