@@ -331,7 +331,7 @@ UINT COpChange::GetNameID(void)
 	return IDOP_CHANGE;
 }
 
-static swap_ID( CNamed *cThere, CNamed *cNew)
+static auto swap_ID( CNamed *cThere, CNamed *cNew)
 {
 DWORD dwid, dwid2;
 CNamed *pname;
