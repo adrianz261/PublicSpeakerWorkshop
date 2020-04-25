@@ -2067,7 +2067,7 @@ CMMWarbleWave::CMMWarbleWave()
 }   
 
 
-CMMWarbleWave::CreateWave( enChannel enType)
+auto CMMWarbleWave::CreateWave( enChannel enType)
 {
 double dstart, dend;
 double dfreq;
